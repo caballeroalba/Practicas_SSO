@@ -1,0 +1,180 @@
+\documentclass[a4paper]{article}
+\usepackage[utf8]{inputenc}
+\title{Práctica 3 }
+\author{José María Caballero Alba}
+
+\begin{document}
+
+\maketitle
+
+\newpage
+
+\tableofcontents
+
+
+
+\section{Herramientas de Kali}
+\subsection{a) Para qué sirve cada grupo de herramientas }
+
+Tenemos varios grupos de herramientas, vamos listando por los siguientes:
+
+\begin{enumerate}
+
+\item Information gathering
+
+Herramientas para la adquisición de información en sistemas, tanto en red (equipos externos) como el propio (información del equipo actual. 
+
+Podemos ver entre ellas algunas como wireshark (equipos remotos y local) o nmap
+
+
+\item VULNERABILITY ANALYSIS
+
+Se trata de un grupo de herramientas para el análisis de vulnerabilidades en sistemas, algunas destacables son sqlninja o powerfuzzer
+
+\item WIRELESS ATTACKS
+
+Herramientas para el ataque a redes wifi, algunas destacabales son Aircrack-ng para ataque de a redes wpa, web y obtener la contraseña de red o pixieWPS para ataques off-line a redes con WPS activado
+
+
+\item WEB APPLICATIONS
+
+Herramientas para el ataque a aplicaciones web, algunas destacables son WebSploit o BurpSuite
+
+\item EXPLOITATION TOOLS
+
+Herramientas de explotación a varios objetivos distintos, algunas destacables son: Backdoor Factory o jboss-autopwn para aplicaciones web java
+
+\item FORENSICS TOOLS
+
+Herramientas para el análisis forense, algunas destacables son: Galleta para las cookies y iPhone Backup Analyzer para extraer información de datos de smartphones Iphone.
+
+\item STRESS TESTING
+
+Herramientas dedicadas al uso de aplicar test de stress al ordenador, algunas son: Termineter o SlowHTTPTest
+
+
+\item SNIFFING \& SPOOFING
+
+Herramientas para el esnifado de paquetes y envenenamiento de estos, algunas famosas son: sslstrip y responder
+
+\item PASSWORD ATTACKS
+
+Herramientas para el ataque a ficheros de pasword, algunas son John the Ripper y THC-Hydra
+
+
+
+
+\item REVERSE ENGINEERING
+
+Herramientas dedicadas a la ingeniería inversa, algunas son: Valgrind y apktool
+
+\item HARDWARE HACKING
+
+Herramientas dedicadas a la manipulación del hardware, algunas son : dex2jar y Sakis3G
+
+\item REPORTING TOOLS
+
+Herramientas dedicadas al reporte de datos sobre exámenes de seguridad a sistemas, algunas son: CaseFile y MagicTree
+
+
+\end{enumerate}
+
+
+
+
+\subsection{b) Comentar una herramienta, de vuestra elección, por grupo}
+
+
+\begin{enumerate}
+
+\item INFORMATION GATHERING
+
+Herramienta: Nmap
+
+Nmap es un escaner de puertos muy conocido en el ámbito de seguridad, permite hacer distintos escaneos de puertos en modos activo y pasivo, reconocimiento de sistemas operativos, versión de servidor usado (en servicios http, ftp, dns, etc) 
+
+\item VULNERABILITY ANALYSIS
+
+Herramienta: sqlninja
+
+sqlninja es una herramienta para la inyección sql en bases de datos de Microsoft en aplicaciones web 
+
+\item WIRELESS ATTACKS
+
+Herramienta: aircrack
+
+
+Aircrack es una conocida herramienta para la penetración en redes wifi, enfocadas especialmente en seguridad wpa y web, en la cual, en esta ultima tiene especial facilidad para poder penetrar en ellas. 
+
+Se componen de varias herramientas como airodump-ng, airmon-ng, etc.
+
+\item WEB APPLICATIONS
+
+Herramienta BurpSuite
+
+BurpSuite es una plataforma para perpetrar test de seguridad en aplicaciones web. Se compone de varias herramientas que trabajan conjuntamente para realizar los tests, desde el mapeo inicial y el análisis de la aplicación a atacar hasta buscar exploits y errores de seguridad. 
+
+
+\item EXPLOITATION TOOLS
+
+Herramienta jboss-autopwn
+
+jboss-autopwn despliega un jsp para obtener una shell interactiva en el servidor jboss. Una vez desplegada permite al atacante ejecutar comandos mediante una sesión interactiva. 
+
+
+\item FORENSICS TOOLS
+
+Herramienta Iphone backup analyzer
+
+Iphone backup analyzer permite visualizar el contenido de una copia de seguridad de un iphone creada por itunes.
+
+
+\item STRESS TESTING
+
+Herramienta Termineter
+
+Termineter permite a cualquier persona conectarse a un contador inteligente de luz con la posibilidad de poder cambiar su software y así poder cambiar el consumo real que se esta utilizando por otro menor (o mayor).
+
+
+\item SNIFFING \& SPOOFING
+
+
+Herramienta sslstrip
+
+sslstrip es una herramienta escrita en python que en conjunto con iptables y un buen ataque mitm permite al atacante evitar la victima se conecte mediante ssl emitiendo esta herramienta sus propios certificados de manera transparente a la victima. De esta manera podemos robar datos planos que irían cifrados.
+
+
+\item PASSWORD ATTACKS
+
+Herramienta John the Ripper
+
+John the Ripper es una vieja conocida en el mundo del crackeo de password.
+
+John the Ripper es una herramienta para conseguir contraseñas de ficheros de datos de usuario, como handshake, ficheros shadow, etc. 
+
+
+\item REVERSE ENGINEERING
+
+Herramienta apktool
+
+aptktool es una herramienta para aplicar ingeniería inversa a los binarios cerrados de android. Puede descodificar elementos y volver a codificarlo aplicándole modificaciones varias.   
+
+
+
+\item HARDWARE HACKING
+
+Herramienta Sakis3G
+
+
+
+
+
+\end{enumerate}
+
+\section{Ejericio  2 }
+
+
+
+\section{Ejercicio 3}
+
+\end{document}
